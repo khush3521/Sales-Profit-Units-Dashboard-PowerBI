@@ -33,3 +33,6 @@ Power BI report analysing sales, profit and units sold using global financial da
 
 ## Report for 3 Dashboard
 # sales
+1. What is the total sales revenue for the selected period?
+Answer:
+The total sales generated is 118.73M.
