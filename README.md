@@ -34,5 +34,8 @@ Power BI report analysing sales, profit and units sold using global financial da
 ## Report for 3 Dashboard
 # sales
 1. What is the total sales revenue for the selected period?
-Answer:
-The total sales generated is 118.73M.
+- The total sales generated is 118.73M.
+- 
+2. How much Gross Sales and Discount were offered overall?
+- Total Gross Sales: 127.93M
+- Total Discount Given: 9.21M
