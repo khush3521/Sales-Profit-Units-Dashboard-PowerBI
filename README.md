@@ -1,10 +1,20 @@
-# Sales-Profit-Units-Dashboard-PowerBI
-Power BI report analysing sales, profit and units sold using global financial dataset.
+#  Sales, Profit & Units Performance Dashboard (Power BI)
+
+This project presents a complete **Business Performance Analysis** using Power BI.  
+It includes 3 interactive dashboards built on top of a global financial dataset covering  
+sales, profit, discounts, units sold, products, segments, and countries.
+
+The goal of the project is to transform raw data into meaningful business insights  
+using **Power Query, Data Modeling, and DAX**.
 
 
-## Objective
-- Analyse sales, profit and units sold across segment, product and country to identify
-- high-performing areas and loss-making combinations.
+# 🎯 Project Objectives
+
+- To analyze sales performance across products, segments, and countries  
+- To measure business profitability and identify profit/loss areas  
+- To study units sold trends and understand customer purchase behavior  
+- To build an interactive and visually appealing multi-page Power BI dashboard  
+- To practice data cleaning, transformation, DAX calculations, and storytelling  
 
 ## Dataset
 - Columns: Segment, Country, Product, Units Sold, Sale Price, Gross Sales,
@@ -14,6 +24,8 @@ Power BI report analysing sales, profit and units sold using global financial da
 - Power BI Desktop
 - Power Query (data cleaning)
 - DAX (measures for Sales, Profit, Units, Profit Margin)
+
+
 
 ## Report Pages
 1. **Sales Overview** – KPIs, sales trend, sales by segment/country, top products.
