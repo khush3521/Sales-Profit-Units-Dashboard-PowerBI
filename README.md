@@ -54,3 +54,34 @@ Power BI report analysing sales, profit and units sold using global financial da
 
 7. Which countries contribute the most to sales?
 - Sales are strongest in North America (USA & Canada) followed by Germany and France.
+
+# Profit
+
+1. What is the total profit and profit margin?
+- Total Profit: 16.89M
+- Profit Margin: 14% (0.14)
+
+2. Which segment is the most profitable?
+- The Government segment is the most profitable with 11.4M profit.
+
+3. Which segment is making losses?
+- The Enterprise segment shows a loss of -0.6M.
+
+4. Which product generates the highest profit?
+- Paseo again leads with 4.8M profit.
+
+5. How does profit trend month-by-month?
+- Profit peaks in October (3.4M) and dips in March–April, staying below 1M.
+
+6. Which countries show highest profitability?
+- Across segments, the highest profitability is seen in:
+ -- Canada
+-- France
+-- USA
+- The matrix shows Government and Channel Partners contribute most to profits.
+
+7. What does the profit status (Increase / Decrease / Total) indicate?
+- The waterfall chart shows:
+- Profit increases mainly from Government & Small Business
+- Profit decreases from Enterprise & Midmarket
+- Loss status also impacts overall margin
