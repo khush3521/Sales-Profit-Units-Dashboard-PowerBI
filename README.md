@@ -4,8 +4,8 @@ Power BI report analysing sales, profit and units sold using global financial da
 # Sales, Profit & Units Performance Dashboard (Power BI)
 
 ## Objective
---Analyse sales, profit and units sold across segment, product and country to identify
-high-performing areas and loss-making combinations.
+- Analyse sales, profit and units sold across segment, product and country to identify
+- high-performing areas and loss-making combinations.
 
 ## Dataset
 - Columns: Segment, Country, Product, Units Sold, Sale Price, Gross Sales,
