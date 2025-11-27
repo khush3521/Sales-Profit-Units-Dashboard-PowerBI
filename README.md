@@ -75,9 +75,9 @@ Power BI report analysing sales, profit and units sold using global financial da
 
 6. Which countries show highest profitability?
 - Across segments, the highest profitability is seen in:
--- Canada
--- France
--- USA
+  -- Canada
+  -- France
+  -- USA
 - The matrix shows Government and Channel Partners contribute most to profits.
 
 7. What does the profit status (Increase / Decrease / Total) indicate?
