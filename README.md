@@ -30,3 +30,6 @@ Power BI report analysing sales, profit and units sold using global financial da
 - sales :-  https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222756.png
 -   profit :- https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222812.png
   -   unit :- https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222823.png
+
+## Report for 3 Dashboard
+# sales
