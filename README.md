@@ -85,3 +85,27 @@ Power BI report analysing sales, profit and units sold using global financial da
 - Profit increases mainly from Government & Small Business
 - Profit decreases from Enterprise & Midmarket
 - Loss status also impacts overall margin
+
+
+# unit sold 
+
+1. How many total units were sold?
+- A total of 1,000,000+ units were sold.
+
+2. What is the average units per transaction?
+- Average units sold per transaction is 1.61K.
+
+3. How many unique products were sold?
+- There are 6 products in total.
+
+4. Which month has the highest units sold?
+- October shows the highest units sold (~0.20M).
+
+5. Which segment buys the highest number of units?
+- The Government segment again leads with 0.47M units sold.
+
+6. Which country purchased the most units?
+- Canada leads with 0.25M units sold, closely followed by France (0.24M).
+
+7. Which product has the highest units sold?
+- Paseo again dominates in units sold, followed by Vtt.
