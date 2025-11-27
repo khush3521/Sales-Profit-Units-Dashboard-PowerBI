@@ -35,7 +35,22 @@ Power BI report analysing sales, profit and units sold using global financial da
 # sales
 1. What is the total sales revenue for the selected period?
 - The total sales generated is 118.73M.
-- 
+
 2. How much Gross Sales and Discount were offered overall?
 - Total Gross Sales: 127.93M
 - Total Discount Given: 9.21M
+  
+3. Which month recorded the highest sales?
+- October recorded the highest sales with around 21.7M, followed by December (~17.4M).
+
+4. Which month had the lowest sales?
+- June had the lowest sales (~5.6M).
+
+5. Which customer segment contributes the most to total sales?
+- The Government segment has the highest sales at 53M, followed by Small Business (42M).
+
+6. Which product generates the highest sales?
+- Paseo is the top-selling product with 33M in total sales.
+
+7. Which countries contribute the most to sales?
+- Sales are strongest in North America (USA & Canada) followed by Germany and France.
