@@ -28,4 +28,6 @@ Power BI report analysing sales, profit and units sold using global financial da
 - Loss transactions are concentrated in Enterprise segment for some products.
 
 ## Screenshots
-
+sales -- https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222756.png
+profit --https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222812.png
+unit   --https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222823.png
