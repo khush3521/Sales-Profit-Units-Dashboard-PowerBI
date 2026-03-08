@@ -1,123 +1,222 @@
-#  Sales, Profit & Units Performance Dashboard (Power BI)
+# 📊 Sales, Profit & Units Performance Dashboard — Power BI
 
-This project presents a complete **Business Performance Analysis** using Power BI.  
-It includes 3 interactive dashboards built on top of a global financial dataset covering  
-sales, profit, discounts, units sold, products, segments, and countries.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-005C84?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge&logo=microsoft&logoColor=white)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
-The goal of the project is to transform raw data into meaningful business insights  
-using **Power Query, Data Modeling, and DAX**.
+> 💰 $118.73M revenue analyzed | 📦 1M+ units sold | 🌍 Multi-country global dataset | 📉 Profit, loss & margin deep dive
 
+---
 
-# 🎯 Project Objectives
+## 📊 End-to-End Analytics Pipeline
 
-- To analyze sales performance across products, segments, and countries  
-- To measure business profitability and identify profit/loss areas  
-- To study units sold trends and understand customer purchase behavior  
-- To build an interactive and visually appealing multi-page Power BI dashboard  
-- To practice data cleaning, transformation, DAX calculations, and storytelling  
+```
+Raw Financial Data → Power Query (Cleaning & Transformation) 
+→ Data Modeling → DAX (Sales, Profit, Units KPIs) → 3-Page Power BI Dashboard → Business Insights
+```
 
-## Dataset
-- Columns: Segment, Country, Product, Units Sold, Sale Price, Gross Sales,
-  Discounts, Sales, Cost of Goods Sold, Profit, Date, Year, Month, Status (profit/break-even/loss).
+---
 
-## Tools
-- Power BI Desktop
-- Power Query (data cleaning)
-- DAX (measures for Sales, Profit, Units, Profit Margin)
+## 📌 Project Overview
 
+A global business generating $118M+ in revenue across 6 products, multiple countries, and 5 customer segments — but not all of that revenue was profitable. The **Enterprise segment was losing money**, discount spend was eating $9.2M in margin, and profit concentration was hiding in just a few products.
 
+This project builds a **3-dashboard Power BI solution** to surface exactly where revenue, profit, and volume are being won or lost — giving business leaders the clarity to act.
 
-## Report Pages
-1. **Sales Overview** – KPIs, sales trend, sales by segment/country, top products.
-2. **Profit Analysis** – profit trend, profit margin, profit by product/segment,
-   loss vs profit using status.
-3. **Units Sold Analysis** – volume trend, units by segment/country/product.
+---
 
-## Key Insights (example)
-- Government & Channel Partners segments generate highest sales.
-- Certain products have high sales but low profit margin due to discounts.
-- Loss transactions are concentrated in Enterprise segment for some products.
+## 🎯 Business Objectives
 
-## Screenshots
-- sales :-  https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222756.png
--   profit :- https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222812.png
-  -   unit :- https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222823.png
+1. **Where is revenue coming from — and which segments are most valuable?**
+2. **Which products and segments are profitable vs loss-making?**
+3. **Are discounts helping sales or destroying margins?**
+4. **Where are the seasonal peaks in sales and volume?**
 
-## Report for 3 Dashboard
-# sales
-1. What is the total sales revenue for the selected period?
-- The total sales generated is 118.73M.
+---
 
-2. How much Gross Sales and Discount were offered overall?
-- Total Gross Sales: 127.93M
-- Total Discount Given: 9.21M
-  
-3. Which month recorded the highest sales?
-- October recorded the highest sales with around 21.7M, followed by December (~17.4M).
+## 📷 Dashboard Previews
 
-4. Which month had the lowest sales?
-- June had the lowest sales (~5.6M).
+### 📌 Dashboard 1 — Sales Overview
+[![Sales Dashboard](Screenshot%202025-11-27%20222756.png)](https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222756.png)
 
-5. Which customer segment contributes the most to total sales?
-- The Government segment has the highest sales at 53M, followed by Small Business (42M).
+### 📌 Dashboard 2 — Profit Analysis
+[![Profit Dashboard](Screenshot%202025-11-27%20222812.png)](https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222812.png)
 
-6. Which product generates the highest sales?
-- Paseo is the top-selling product with 33M in total sales.
+### 📌 Dashboard 3 — Units Sold Analysis
+[![Units Dashboard](Screenshot%202025-11-27%20222823.png)](https://github.com/khush3521/Sales-Profit-Units-Dashboard-PowerBI/blob/main/Screenshot%202025-11-27%20222823.png)
 
-7. Which countries contribute the most to sales?
-- Sales are strongest in North America (USA & Canada) followed by Germany and France.
+---
 
-# Profit
+## 📈 Key Insights & Business Impact
 
-1. What is the total profit and profit margin?
-- Total Profit: 16.89M
-- Profit Margin: 14% (0.14)
+| Finding | Business Implication |
+|---|---|
+| **Government segment: $53M sales, $11.4M profit** | Highest-value segment — protect and grow this relationship |
+| **Enterprise segment: -$0.6M loss** | Pricing or discount strategy needs urgent review |
+| **$9.21M discounts given vs $16.89M total profit** | Discounts equal 54% of profit — significant margin risk |
+| **Paseo: $33M sales, $4.8M profit — top product** | Double down on Paseo in top markets |
+| **October peak: $21.7M sales vs June low: $5.6M** | 4x seasonal swing — inventory and campaign planning critical |
+| **Canada leads units sold (0.25M), France close behind** | North America + France are core markets for volume |
+| **Enterprise & Midmarket drag profit via waterfall** | Segment-level pricing tiers needed to protect overall margin |
 
-2. Which segment is the most profitable?
-- The Government segment is the most profitable with 11.4M profit.
+---
 
-3. Which segment is making losses?
-- The Enterprise segment shows a loss of -0.6M.
+## 📊 Dashboard Structure
 
-4. Which product generates the highest profit?
-- Paseo again leads with 4.8M profit.
+### 🔹 Dashboard 1 — Sales Overview
+Revenue performance for sales leadership:
+- **Total Sales: $118.73M** | Gross Sales: $127.93M | Discounts: $9.21M
+- Monthly sales trend — peak in **October ($21.7M)**, trough in **June ($5.6M)**
+- Sales by segment — **Government ($53M) leads, Small Business ($42M) second**
+- Top product: **Paseo at $33M**
+- Country breakdown — USA, Canada, Germany, France strongest
 
-5. How does profit trend month-by-month?
-- Profit peaks in October (3.4M) and dips in March–April, staying below 1M.
+### 🔹 Dashboard 2 — Profit Analysis
+Margin and profitability for finance teams:
+- **Total Profit: $16.89M | Profit Margin: 14%**
+- Profit trend — peaks **October ($3.4M)**, dips **March–April (below $1M)**
+- Most profitable: **Government segment ($11.4M profit)**
+- Loss segment: **Enterprise (-$0.6M)**
+- Waterfall chart — profit increases from Government & Small Business, decreases from Enterprise & Midmarket
+- Country profitability leaders: **Canada, France, USA**
 
-6. Which countries show highest profitability?
-- Across segments, the highest profitability is seen in:
-    -- Canada
-    -- France
-    -- USA
-- The matrix shows Government and Channel Partners contribute most to profits.
+### 🔹 Dashboard 3 — Units Sold Analysis
+Volume tracking for operations and supply chain:
+- **Total Units Sold: 1,000,000+ | Avg per Transaction: 1.61K**
+- 6 unique products in portfolio
+- Volume peak: **October (0.20M units)**
+- Top segment by volume: **Government (0.47M units)**
+- Top country: **Canada (0.25M)**, France (0.24M)
+- Top product by volume: **Paseo**, followed by Vtt
 
-7. What does the profit status (Increase / Decrease / Total) indicate?
-- The waterfall chart shows:
-- Profit increases mainly from Government & Small Business
-- Profit decreases from Enterprise & Midmarket
-- Loss status also impacts overall margin
+---
 
+## 🧠 DAX Measures
 
-# unit sold 
+```DAX
+-- Core Sales KPIs
+Total Sales      = SUM(financials[Sales])
+Gross Sales      = SUM(financials[Gross Sales])
+Total Discounts  = SUM(financials[Discounts])
+Net Revenue      = [Gross Sales] - [Total Discounts]
 
-1. How many total units were sold?
-- A total of 1,000,000+ units were sold.
+-- Profit Measures
+Total Profit     = SUM(financials[Profit])
+Profit Margin %  = DIVIDE([Total Profit], [Total Sales])
+Total COGS       = SUM(financials[COGS])
 
-2. What is the average units per transaction?
-- Average units sold per transaction is 1.61K.
+-- Units
+Total Units Sold = SUM(financials[Units Sold])
+Avg Units per Transaction =
+    DIVIDE([Total Units Sold], COUNTROWS(financials))
 
-3. How many unique products were sold?
-- There are 6 products in total.
+-- Discount Impact
+Discount Rate % =
+    DIVIDE([Total Discounts], [Gross Sales])
 
-4. Which month has the highest units sold?
-- October shows the highest units sold (~0.20M).
+-- Segment Profitability Flag
+Segment Status =
+IF(
+    CALCULATE([Total Profit], ALLEXCEPT(financials, financials[Segment])) < 0,
+    "Loss ⚠️",
+    "Profitable ✅"
+)
 
-5. Which segment buys the highest number of units?
-- The Government segment again leads with 0.47M units sold.
+-- Monthly Sales Rank
+Monthly Sales Rank =
+RANKX(
+    ALL(financials[Month Name]),
+    [Total Sales],
+    ,
+    DESC,
+    DENSE
+)
 
-6. Which country purchased the most units?
-- Canada leads with 0.25M units sold, closely followed by France (0.24M).
+-- Top Product
+Top Product =
+CALCULATE(
+    FIRSTNONBLANK(financials[Product], 1),
+    TOPN(1, VALUES(financials[Product]), [Total Sales], DESC)
+)
 
-7. Which product has the highest units sold?
-- Paseo again dominates in units sold, followed by Vtt.
+-- Profit by Status (for waterfall)
+Profit Increase =
+CALCULATE([Total Profit], financials[Status] = "Profit")
+
+Profit Decrease =
+CALCULATE([Total Profit], financials[Status] = "Loss")
+```
+
+---
+
+## 🛠 Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| Power BI Desktop | 3-page interactive dashboard |
+| DAX | Sales, profit, margin, units & segment KPIs |
+| Power Query | Data cleaning, status column engineering, date fields |
+| Global Financial Dataset | Multi-country, multi-segment raw data |
+
+---
+
+## 📂 Dataset Attributes
+
+| Column | Description |
+|---|---|
+| Segment | Customer segment (Government, Small Business, Enterprise, etc.) |
+| Country | Country of sale |
+| Product | One of 6 products (Paseo, Vtt, etc.) |
+| Units Sold | Volume of units per transaction |
+| Sale Price | Price per unit |
+| Gross Sales | Revenue before discounts |
+| Discounts | Discount amount applied |
+| Sales | Net sales (Gross - Discounts) |
+| COGS | Cost of goods sold |
+| Profit | Net profit per transaction |
+| Date / Year / Month | Time dimension |
+| Status | Engineered field: Profit / Break-even / Loss |
+
+---
+
+## 📂 Repository Structure
+
+```
+Sales-Profit-Units-Dashboard-PowerBI/
+│
+├── data/
+│   └── financials.csv
+│
+├── powerbi/
+│   └── Sales_Profit_Units_Dashboard.pbix
+│
+├── Screenshot 2025-11-27 222756.png     ← Dashboard 1: Sales
+├── Screenshot 2025-11-27 222812.png     ← Dashboard 2: Profit
+├── Screenshot 2025-11-27 222823.png     ← Dashboard 3: Units
+└── README.md
+```
+
+---
+
+## 🔮 Future Improvements
+
+- Add **price elasticity analysis** — how discount rate affects units sold
+- Build **country-level drill-through pages** for market-specific reporting
+- Add **What-If parameter** — simulate profit impact of reducing discounts by 10–20%
+- Integrate **Python margin optimization model** — suggest ideal discount thresholds per segment
+- Publish to **Power BI Service** for live financial reporting
+
+---
+
+## 👨‍💻 Author
+
+**Khush Panchal** — Data Analyst
+Specializing in financial analytics, business performance & data storytelling
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/khush-panchal-96b557352)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?style=flat&logo=github)](https://github.com/khush3521)
+
+---
+
+⭐ If you found this project valuable, please consider starring this repository!
